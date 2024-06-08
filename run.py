@@ -1,8 +1,10 @@
 import subprocess
 
 commands = [
+    "sudo su",
+    "apt install nodejs",
     "apt install unzip",
-    "cd D && unzip DRAGON.zip",
+    "unzip DRAGON.zip",
     "cd D/DRAGON && pip install telebot",
     "cd D/DRAGON && chmod +x *",
     "cd D/DRAGON && python3 x.py"
