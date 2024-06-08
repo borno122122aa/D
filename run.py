@@ -1,7 +1,6 @@
 import subprocess
 
 commands = [
-    "sudo su",
     "apt install nodejs",
     "apt install unzip",
     "unzip DRAGON.zip",
