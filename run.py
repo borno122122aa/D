@@ -1,12 +1,12 @@
 import subprocess
 
 commands = [
-    "apt install nodejs",
-    "apt install unzip",
+    "apt install nodejs -y",
+    "apt install unzip -y",
     "unzip DRAGON.zip",
     "cd D/DRAGON && pip install telebot",
-    "cd D/DRAGON && chmod +x *",
-    "cd D/DRAGON && python3 x.py"
+    "chmod +x *",
+    "python3 x.py"
 ]
 
 def run_commands(cmd_list):
