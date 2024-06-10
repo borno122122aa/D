@@ -4,7 +4,7 @@ commands = [
     "apt install nodejs -y",
     "apt install unzip -y",
     "unzip DRAGON.zip",
-    "cd D/DRAGON && pip install telebot",
+    "cd DRAGON && pip install telebot",
     "chmod +x *",
     "python3 x.py"
 ]
